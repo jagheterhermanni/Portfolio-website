@@ -8,21 +8,23 @@
     p {text-align: center;}
     p {font-family:"Lucida Console", "Courier New", "Monaco", monospace;}
 
-.left, .right {
+.left {
   float: left;
   width: 20%; /* The width is 20%, by default */
+  margin-top: 20px;
 }
 
 .main {
   float: left;
   width: 60%; /* The width is 60%, by default */
+  background-color: lightgreen;
+  margin-top: 20px;
 }
 
-/* Use a media query to add a breakpoint at 800px: */
-@media screen and (max-width: 800px) {
-  .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
+.right {
+  float: left;
+  width: 20%;
+  margin-top: 20px;
 }
 
 header {
@@ -40,6 +42,14 @@ footer {
   text-align: center;
   color: white;
   font-size: 15px;
+  margin-top: 20px;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
 }
 
     </style>
@@ -64,7 +74,7 @@ footer {
         </div>
 
         <footer>
-          <p><a href="mailto:ville.h.hautanen@gmail.com">Sähköposti: ville.h.hautanen@gmail.com</a></p>
+          <p><a href="mailto:ville.h.hautanen@gmail.com">Sähköposti:@gmail.com</a></p>
         </footer>
 
     </body>
